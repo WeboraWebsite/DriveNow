@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DriveNow - Premium Car Rental | Luxury & Affordable Cars</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">DriveNow</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#cars" class="nav-link">Cars</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+      <div class="floating-card">
+        <i class="fas fa-shield-alt"></i>
+        <span>Fully Insured</span>
+      </div>
+      <div class="floating-card">
+        <i class="fas fa-clock"></i>
+        <span>24/7 Support</span>
+      </div>
+      <div class="floating-card">
+        <i class="fas fa-award"></i>
+        <span>Premium Service</span>
+      </div>
+      
+      <div class="hero-container-centered">
+        <div class="hero-content-centered">
+          <div class="hero-badge">
+            <i class="fas fa-trophy"></i>
+            <span>Dubai's #1 Premium Car Rental</span>
+          </div>
+          <h1>Drive Your Dreams Into Reality</h1>
+          <p class="subtitle">
+            Discover Dubai's finest collection of luxury and performance vehicles. From sleek sedans to exotic supercars – your perfect ride awaits with zero deposit and instant confirmation.
+          </p>
+          <div class="hero-cta">
+            <a href="#cars" class="btn btn-primary">
+              <span>Browse Our Fleet</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Book Now</span>
+              <i class="fas fa-calendar-check"></i>
+            </a>
+          </div>
+          
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-number">500+</div>
+              <div class="stat-label">Luxury Vehicles</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">15K+</div>
+              <div class="stat-label">Happy Clients</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">24/7</div>
+              <div class="stat-label">Concierge Service</div>
+            </div>
+          </div>
+          
+          <div class="hero-features">
+            <div class="feature-badge">
+              <i class="fas fa-credit-card"></i>
+              <span>No Security Deposit</span>
+            </div>
+            <div class="feature-badge">
+              <i class="fas fa-shipping-fast"></i>
+              <span>Free Delivery</span>
+            </div>
+            <div class="feature-badge">
+              <i class="fas fa-tools"></i>
+              <span>24/7 Roadside Assist</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Car -->
+    <section class="featured-section">
+      <h2>Featured Car</h2>
+      <div class="featured-car-card">
+        <div class="car-box featured-car-box">
+          <span class="car-label">Featured</span>
+          <div class="car-image-container">
+            <img src="bmw.png" alt="BMW M4 Coupe" class="car-image">
+            <div class="car-fallback">
+              <i class="fas fa-car-side"></i>
+              <span>BMW M4 Coupe</span>
+            </div>
+          </div>
+        </div>
+        <div class="featured-car-details">
+          <h3>BMW M4 Coupe</h3>
+          <p>Experience ultimate luxury and performance with this premium sports coupe. Perfect for business trips and special occasions.</p>
+          <div class="featured-price-display">
+            <span class="price-highlight">Special Rate: <strong>440 AED/day</strong></span>
+          </div>
+          <a href="#cars" class="btn btn-secondary">Rent This Car</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cars Section -->
+    <section id="cars" class="cars-section">
+      <h2>Our Cars</h2>
+      <h3>Premium Selection</h3>
+      <div class="car-grid">
+        <div class="car-card">
+          <div class="car-image-container">
+            <img src="Audi-A4.png" alt="Audi A4" class="car-image">
+            <div class="car-fallback">
+              <i class="fas fa-car"></i>
+              <span>Audi A4</span>
+            </div>
+          </div>
+          <div class="car-info">
+            <h3>Audi A4</h3>
+            <p>255 AED/day</p>
+            <a href="#contact" class="btn btn-secondary">Rent Now</a>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-image-container">
+            <img src="tesla.webp" alt="Tesla Model 3" class="car-image">
+            <div class="car-fallback">
+              <i class="fas fa-bolt"></i>
+              <span>Tesla Model 3</span>
+            </div>
+          </div>
+          <div class="car-info">
+            <h3>Tesla Model 3</h3>
+            <p>350 AED/day</p>
+            <a href="#contact" class="btn btn-secondary">Rent Now</a>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-image-container">
+            <img src="pngimg.com - mustang_PNG3.png" alt="Ford Mustang" class="car-image">
+            <div class="car-fallback">
+              <i class="fas fa-car-side"></i>
+              <span>Ford Mustang</span>
+            </div>
+          </div>
+          <div class="car-info">
+            <h3>Ford Mustang</h3>
+            <p>405 AED/day</p>
+            <a href="#contact" class="btn btn-secondary">Rent Now</a>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-image-container">
+            <img src="golf.png" alt="VW Golf R" class="car-image">
+            <div class="car-fallback">
+              <i class="fas fa-car"></i>
+              <span>VW Golf R</span>
+            </div>
+          </div>
+          <div class="car-info">
+            <h3>VW Golf R</h3>
+            <p>200 AED/day</p>
+            <a href="#contact" class="btn btn-secondary">Rent Now</a>
+          </div>
+        </div>
+      </div>
+
+      <h3>Affordable Cars</h3>
+      <div class="car-grid">
+        <div class="car-card">
+          <div class="car-image-container">
+            <img src="corrola.png" alt="Toyota Corolla" class="car-image">
+            <div class="car-fallback">
+              <i class="fas fa-car"></i>
+              <span>Toyota Corolla</span>
+            </div>
+          </div>
+          <div class="car-info">
+            <h3>Toyota Corolla</h3>
+            <p>120 AED/day</p>
+            <a href="#contact" class="btn btn-secondary">Rent Now</a>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-image-container">
+            <img src="Kia-Rio-Hatchback.png" alt="Kia Rio" class="car-image">
+            <div class="car-fallback">
+              <i class="fas fa-car"></i>
+              <span>Kia Rio</span>
+            </div>
+          </div>
+          <div class="car-info">
+            <h3>Kia Rio</h3>
+            <p>110 AED/day</p>
+            <a href="#contact" class="btn btn-secondary">Rent Now</a>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-image-container">
+            <img src="NEW-SUNNY-SL.png" alt="Nissan Sunny" class="car-image">
+            <div class="car-fallback">
+              <i class="fas fa-car"></i>
+              <span>Nissan Sunny</span>
+            </div>
+          </div>
+          <div class="car-info">
+            <h3>Nissan Sunny</h3>
+            <p>100 AED/day</p>
+            <a href="#contact" class="btn btn-secondary">Rent Now</a>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-image-container">
+            <img src="hundai accent.png" alt="Hyundai Accent" class="car-image">
+            <div class="car-fallback">
+              <i class="fas fa-car"></i>
+              <span>Hyundai Accent</span>
+            </div>
+          </div>
+          <div class="car-info">
+            <h3>Hyundai Accent</h3>
+            <p>90 AED/day</p>
+            <a href="#contact" class="btn btn-secondary">Rent Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+      <div class="about-container">
+        <div class="about-header">
+          <h2>About DriveNow</h2>
+          <p class="about-subtitle">Your trusted partner for premium car rental experiences in Dubai</p>
+        </div>
+        
+        <div class="about-main-content">
+          <div class="about-story">
+            <div class="story-text">
+              <h3>Our Story</h3>
+              <p>
+                Since our founding in 2018, DriveNow has been dedicated to revolutionizing the car rental experience in Dubai. We understand that every journey matters, whether it's a business trip, family vacation, or special occasion.
+              </p>
+              <p>
+                Our commitment to excellence goes beyond just providing vehicles. We offer personalized service, transparent pricing, and a seamless booking experience that puts you in control of your journey.
+              </p>
+              
+              <div class="story-highlight">
+                <h4>🎯 Our Mission</h4>
+                <p>"To make premium car rental accessible, reliable, and enjoyable for everyone who chooses to explore Dubai and beyond with us."</p>
+              </div>
+            </div>
+            
+            <div class="story-visual">
+              <div class="story-card">
+                <div class="story-icon">
+                  <i class="fas fa-road"></i>
+                </div>
+                <div class="story-stats">
+                  <div class="story-stat">
+                    <span class="stat-num">7+</span>
+                    <span class="stat-text">Years Experience</span>
+                  </div>
+                  <div class="story-stat">
+                    <span class="stat-num">50K+</span>
+                    <span class="stat-text">Miles Driven</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-features">
+            <h3>Why Choose DriveNow?</h3>
+            <div class="features-grid">
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-hand-holding-usd"></i>
+                </div>
+                <div class="feature-content">
+                  <h4>No Security Deposit</h4>
+                  <p>Rent without the hassle of large security deposits. Drive away with confidence and keep your money in your pocket.</p>
+                </div>
+              </div>
+              
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="feature-content">
+                  <h4>Fully Insured & Safe</h4>
+                  <p>Comprehensive insurance coverage and regularly maintained fleet with 24/7 roadside assistance for your safety.</p>
+                </div>
+              </div>
+              
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-headset"></i>
+                </div>
+                <div class="feature-content">
+                  <h4>24/7 Customer Service</h4>
+                  <p>Round-the-clock multilingual support team ready to assist with any queries or emergency situations.</p>
+                </div>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-car-alt"></i>
+                </div>
+                <div class="feature-content">
+                  <h4>Premium Fleet</h4>
+                  <p>From luxury sedans to sports cars, our diverse fleet is regularly updated with the latest models and technology.</p>
+                </div>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-dollar-sign"></i>
+                </div>
+                <div class="feature-content">
+                  <h4>Best Price Guaranteed</h4>
+                  <p>Competitive pricing with no hidden fees. If you find a better deal, we'll match it plus give you 5% off.</p>
+                </div>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-calendar-check"></i>
+                </div>
+                <div class="feature-content">
+                  <h4>Flexible Booking</h4>
+                  <p>Easy online reservations with instant confirmation. Modify your booking dates or upgrade your vehicle with just a few clicks.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-promise">
+            <div class="promise-header">
+              <div class="promise-icon">
+                <i class="fas fa-handshake"></i>
+              </div>
+              <h3>Our Promise to You</h3>
+              <p class="promise-subtitle">At DriveNow, we don't just rent cars – we create experiences. Every vehicle in our fleet represents our commitment to quality, safety, and your satisfaction.</p>
+            </div>
+            
+            <div class="promise-points">
+              <div class="promise-point">
+                <div class="promise-point-icon">
+                  <i class="fas fa-tag"></i>
+                </div>
+                <div class="promise-point-content">
+                  <h4>Transparent Pricing</h4>
+                  <p>No surprise fees, no hidden charges. What you see is what you pay – always clear and upfront pricing.</p>                                                              
+                </div>
+              </div>
+              
+              <div class="promise-point">
+                <div class="promise-point-icon">
+                  <i class="fas fa-calendar-alt"></i>
+                </div>
+                <div class="promise-point-content">
+                  <h4>Flexible Policies</h4>
+                  <p>Easy booking modifications and fair cancellation terms that work around your schedule.</p>
+                </div>
+              </div>
+              
+              <div class="promise-point">
+                <div class="promise-point-icon">
+                  <i class="fas fa-check-circle"></i>
+                </div>
+                <div class="promise-point-content">
+                  <h4>100% Satisfaction</h4>
+                  <p>We guarantee your complete satisfaction with our service or we'll make it right immediately.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="promise-cta">
+              <a href="#contact" class="btn btn-promise">Get In Touch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="contact-container">
+        <div class="contact-header">
+          <div class="contact-icon-main">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h2>Get In Touch</h2>
+          <p class="contact-subtitle">Ready to rent your perfect car? We're here to help you get on the road quickly and easily.</p>
+        </div>
+        
+        <div class="contact-content">
+          <div class="contact-form-wrapper">
+            <div class="form-header">
+              <h3>Send us a message</h3>
+              <p>Fill out the form below and we'll get back to you within 24 hours</p>
+            </div>
+            
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <div class="input-wrapper">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required/>
+                  </div>
+                  <span class="error-message" id="nameError"></span>
+                </div>
+                
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <div class="input-wrapper">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required/>
+                  </div>
+                  <span class="error-message" id="emailError"></span>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="phone">Phone Number (Optional)</label>
+                <div class="input-wrapper">
+                  <i class="fas fa-phone"></i>
+                  <input type="tel" id="phone" name="phone" placeholder="+971 XX XXX XXXX"/>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <div class="input-wrapper">
+                  <i class="fas fa-tag"></i>
+                  <select id="subject" name="subject" required>
+                    <option value="">Select a subject</option>
+                    <option value="rental">Car Rental Inquiry</option>
+                    <option value="support">Customer Support</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <span class="error-message" id="subjectError"></span>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <div class="input-wrapper">
+                  <i class="fas fa-comment"></i>
+                  <textarea id="message" name="message" placeholder="Tell us how we can help you..." required></textarea>
+                </div>
+                <span class="error-message" id="messageError"></span>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-submit">
+                <span class="btn-text">Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+              
+              <div class="success-message" id="successMessage"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <div class="footer-logo">DriveNow</div>
+        <p class="footer-description">
+          Your trusted partner for premium car rental experiences in Dubai. We provide luxury and affordable vehicles with exceptional service, ensuring every journey is memorable.
+        </p>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <div class="footer-links">
+          <a href="#home" class="footer-link">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+          </a>
+          <a href="#cars" class="footer-link">
+            <i class="fas fa-car"></i>
+            <span>Our Fleet</span>
+          </a>
+          <a href="#about" class="footer-link">
+            <i class="fas fa-info-circle"></i>
+            <span>About Us</span>
+          </a>
+          <a href="#contact" class="footer-link">
+            <i class="fas fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Contact Info</h4>
+        <div class="footer-contact-info">
+          <div class="contact-info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Sheikh Zayed Road, Dubai, UAE</span>
+          </div>
+          <div class="contact-info-item">
+            <i class="fas fa-phone"></i>
+            <span>+971 52 123 4567</span>
+          </div>
+          <div class="contact-info-item">
+            <i class="fas fa-envelope"></i>
+            <span>info@drivenow.com</span>
+          </div>
+          <div class="contact-info-item">
+            <i class="fas fa-clock"></i>
+            <span>24/7 Available</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-copyright">
+        <span>&copy; 2025 DriveNow. All rights reserved.</span>
+      </div>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
