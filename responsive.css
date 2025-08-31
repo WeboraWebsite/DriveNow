@@ -1,0 +1,382 @@
+/* Global fixes for overflow and margin issues */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tablets and smaller laptops */
+@media screen and (max-width: 1024px) {
+  .hero-content-centered {
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .car-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 768px) {
+  /* Reset any default margins/padding */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Navigation */
+  .navbar {
+    padding: 1rem;
+  }
+
+  .nav-links {
+    display: none; /* You might want to add a mobile menu later */
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+
+  .floating-card {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-stats {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  /* Cars Section */
+  .car-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .car-card {
+    margin: 0 1rem;
+  }
+
+  /* About Section */
+  .about-features .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-card {
+    padding: 1rem;
+  }
+
+  /* Contact Section */
+  .contact-form-wrapper {
+    padding: 1rem;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer-content {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .footer-section {
+    width: 100%;
+  }
+
+  /* Container adjustments */
+  .hero-section,
+  .featured-section,
+  .cars-section,
+  .about-section,
+  .contact-section,
+  footer {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+  }
+
+  /* Content padding adjustments */
+  .hero-content-centered,
+  .featured-car-card,
+  .car-grid,
+  .about-container,
+  .contact-container,
+  .footer-content {
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  /* Layout adjustments for mobile */
+  .hero-section,
+  .featured-section,
+  .cars-section,
+  .about-section,
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Hero section adjustments */
+  .hero-badge {
+    margin-top: 60px; /* Add space below navigation */
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .hero-container-centered {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .hero-content-centered {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .floating-card {
+    position: relative;
+    margin: 0.5rem auto;
+    width: 90%;
+  }
+
+  /* Featured car adjustments */
+  .featured-car-card {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .featured-car-details {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  /* Car grid adjustments */
+  .car-grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .car-card {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  /* About section adjustments */
+  .about-main-content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-story {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .story-text {
+    order: 1;
+    width: 100%;
+  }
+
+  .story-visual {
+    order: 2;
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+
+  .story-highlight {
+    order: 3;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .story-card {
+    width: 100%;
+    padding: 1.5rem;
+    margin: 0 auto;
+  }
+
+  .about-main-content {
+    padding: 1rem;
+  }
+
+  /* Contact form adjustments */
+  .contact-form-wrapper {
+    width: 100%;
+    max-width: none;
+  }
+
+  .form-row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* Footer adjustments */
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-section {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+
+  /* Car card adjustments */
+  .car-card {
+    max-width: 100%;
+    margin: 0.5rem auto;
+  }
+
+  .car-image-container {
+    height: 180px; /* Reduced height for mobile */
+    width: 100%;
+  }
+
+  .car-image {
+    max-height: 160px; /* Smaller image size */
+    object-fit: contain;
+  }
+
+  /* Featured car adjustments */
+  .featured-car-box {
+    max-width: 100%;
+  }
+
+  .featured-car-box .car-image-container {
+    height: 200px; /* Slightly larger for featured car */
+  }
+
+  .featured-car-box .car-image {
+    max-height: 180px;
+  }
+
+  /* Car grid spacing */
+  .car-grid {
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  /* Promise section adjustments */
+  .about-promise {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  .promise-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .promise-header h1 {
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+  }
+
+  .promise-subtitle {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .promise-points {
+    gap: 1rem;
+  }
+
+  .promise-point {
+    padding: 1rem;
+    margin: 0.5rem 0;
+  }
+
+  .promise-point-content h4 {
+    font-size: 1.1rem;
+  }
+
+  .promise-point-content p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .promise-point-icon {
+    font-size: 1.2rem;
+    margin-right: 0.8rem;
+  }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 480px) {
+  .hero-features,
+  .hero-stats,
+  .hero-cta {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .feature-badge,
+  .stat-item,
+  .btn {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .car-image-container {
+    height: 150px; /* Even smaller for very small screens */
+  }
+
+  .car-image {
+    max-height: 130px;
+  }
+
+  .featured-car-box .car-image-container {
+    height: 170px;
+  }
+
+  .featured-car-box .car-image {
+    max-height: 150px;
+  }
+
+  .story-card {
+    padding: 1rem;
+  }
+
+  .story-stats {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
