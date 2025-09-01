@@ -1,0 +1,29 @@
+# GitHub Pages configuration
+plugins:
+  - jekyll-relative-links
+
+# Enforce HTTPS
+enforce_ssl: true
+
+# Site settings
+title: "DriveNow - Premium Car Rental"
+description: "Premium car rental service in Dubai with luxury and affordable vehicles"
+url: "https://yourusername.github.io"
+baseurl: "/DriveNow-main"
+
+# GitHub Pages specific settings
+github:
+  is_project_page: true
+
+# Enable relative links
+relative_links:
+  enabled: true
+  collections: true
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - LICENSE
+  - node_modules
+  - package.json
+  - package-lock.json
